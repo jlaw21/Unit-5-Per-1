@@ -1,0 +1,27 @@
+/*
+https://colorhunt.co/palette/225760
+*/
+
+body{
+    background-color: #dddddd;
+    font-family: "Book Antiqua";
+}
+
+p, ul, ol{
+    color: #30475e;
+    font-size:20px;
+}
+
+h1{
+    color: #f05454;
+    font-size:32px;
+}
+
+h2{
+    font-size: 28px;
+}
+
+h3{
+    font-size: 24px;
+}
+
