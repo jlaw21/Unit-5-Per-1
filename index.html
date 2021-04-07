@@ -7,7 +7,7 @@
     <title>Unit 5 notes</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Codystar&family=New+Tegomin&family=Syne+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
     <h1>HTML NOTES</h1>
@@ -223,6 +223,147 @@
             </ol>
         </li>
     </ul>
+
+    <hr>
+
+    <h1>Tables</h1>
+
+    <p>Tables are a great way to organize data and information. However, in web design, we can use tables to create a layout for our page. This method was first used in the beginnings of the internet. It is not used much today, however, its still a good skill to know.</p>
+
+    <p>Like lists, tables are a bunch of nested HTML elements inside each other. In most programming languages, HTML included, tables are row-oriented or row-important. In other words, we never define columns, we simple create rows and add data to them. The amount of data determines the columns.</p>
+
+    <p>There is a process, or steps, to creating tables. </p>
+    <ol>
+        <li>Create a table block</li>
+        <li>Create table rows</li>
+        <li>Create headers in the first row</li>
+        <li>Add table data to the rest.</li>
+    </ol>
+
+    <h2>A Simple Table</h2>
+
+    <table border="1">
+        <tr>
+            <th>Breakfast</th>
+            <th>Lunch</th>
+            <th>Dinner</th>
+        </tr>
+        <tr>
+            <td>Cereal</td>
+            <td>Cheeze-itz</td>
+            <td>Hamburger</td>
+        </tr>
+        <tr>
+            <td>Eggs</td>
+            <td>Chicken Nuggets</td>
+            <td>Turkey</td>
+        </tr>
+    </table>
+
+    <h2>Table with Row Headers</h2>
+
+    <table border="1">
+        <tr>
+            <th></th>
+            <th>Breakfast</th>
+            <th>Lunch</th>
+            <th>Dinner</th>
+        </tr>
+        <tr>
+            <th>Monday</th>
+            <td>Cereal</td>
+            <td>Cheeze-itz</td>
+            <td>Hamburger</td>
+        </tr>
+        <tr>
+            <th>Sunday</th>
+            <td>Eggs</td>
+            <td>Chicken Nuggets</td>
+            <td>Turkey</td>
+        </tr>
+    </table>
+
+    <h2>Colspan and Rowspan</h2>
+
+    <p>Colspan and Rowspan are used to extend data scross rows and columns. In spreadsheets, this is known as merging cells. A good rule of thumb, is to fill in ALL the data for the table, without merges, then go back and merge the data for better readability.</p>
+
+    <h3>Table with Merges</h3>
+
+    <table border="1">
+        <tr>
+            <th></th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+        </tr>
+        <tr>
+            <th>Breakfast</th>
+            <td>In Lair</td>
+            <td>With Cronies</td>
+            <td colspan="3">In Lair</td>
+        </tr>
+        <tr>
+            <th>Morning</th>
+            <td colspan="2">Design Traps</td>
+            <td colspan="3">Improve Hideout</td>
+        </tr>
+        <tr>
+            <th>Afternoon</th>
+            <td>Train Minions</td>
+            <td>Train Minions</td>
+            <td>Train Minions</td>
+            <td>Train Minions</td>
+            <td rowspan="2">World Domination</td>
+        </tr>
+        <tr>
+            <th>Evening</th>
+            <td>Manaical Laughter</td>
+            <td>Manaical Laughter</td>
+            <td>Manaical Laughter</td>
+            <td>Manaical Laughter</td>
+        </tr>
+    </table>
+
+    <h3>Adding Widths and Heights</h3>
+
+    <table border="1" width="100%" height="400px">
+        <tr>
+            <th></th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+        </tr>
+        <tr>
+            <th>Breakfast</th>
+            <td>In Lair</td>
+            <td>With Cronies</td>
+            <td colspan="3">In Lair</td>
+        </tr>
+        <tr>
+            <th  height="100px">Morning</th>
+            <td colspan="2">Design Traps</td>
+            <td colspan="3">Improve Hideout</td>
+        </tr>
+        <tr>
+            <th>Afternoon</th>
+            <td width="300px">Train Minions</td>
+            <td>Train Minions</td>
+            <td>Train Minions</td>
+            <td>Train Minions</td>
+            <td rowspan="2">World Domination</td>
+        </tr>
+        <tr>
+            <th>Evening</th>
+            <td>Manaical Laughter</td>
+            <td>Manaical Laughter</td>
+            <td>Manaical Laughter</td>
+            <td>Manaical Laughter</td>
+        </tr>
+    </table>
 
 
 

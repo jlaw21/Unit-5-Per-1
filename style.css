@@ -4,7 +4,7 @@ https://colorhunt.co/palette/225760
 
 body{
     background-color: #dddddd;
-    font-family: "Book Antiqua";
+    font-family: 'Roboto', sans-serif;;
 }
 
 p, ul, ol{
@@ -15,42 +15,37 @@ p, ul, ol{
 h1{
     color: #f05454;
     font-size:32px;
-    font-family: 'Syne Mono', monospace;
+    font-family: 'Dela Gothic One', cursive;
 }
 
 h1:hover{
-    color: #222831;
-    font-family: 'Codystar', cursive;
 
+    text-shadow: 3px 3px 3px #30475e;
 }
 
 h2{
     font-size: 28px;
-    font-family: 'New Tegomin', serif;
 }
 
 h3{
     font-size: 24px;
-    font-family: 'Codystar', cursive;
 }
 
 a:link{
-    color: #f05454;
-    font-size: 22px;
-
+    color:#f05454;
 }
 
 a:visited{
-    color: yellow;
-    font-size: 22px;
+    color: #8ac4d0;
 }
 
 a:hover{
-    color: cyan;
-    font-size: 36px;
+    color:#f05454;
 }
 
 a:active{
-    color: magenta;
+    font-color:cyan;
 }
+
+
 
